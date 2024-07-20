@@ -17,6 +17,7 @@ const MostVotedIndex = ({votes , anecdotes}) => {
     </>
 };
 
+
 function App() {
   const [selected, setSelected] = useState(0);
   const [shownIndexes, setShownIndexes] = useState([]);
